@@ -1,5 +1,4 @@
-import { useState } from "react";
-
+import React, { useState } from "react";
 const DINNERS = [
   {
     name: "肉じゃが", cal: 680, time: 45, emoji: "🥔", servings: 4,
