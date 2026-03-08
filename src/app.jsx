@@ -257,7 +257,7 @@ function formatAmount(amount, unit, baseServings, selectedServings) {
 
 const SERVING_LABELS = ["1人前", "2人前", "3人前", "4人前", "5人前"];
 
-export default function DinnerRoulette() {
+export default function app() {
   const [result, setResult] = useState(null);
   const [spinning, setSpinning] = useState(false);
   const [current, setCurrent] = useState(0);
